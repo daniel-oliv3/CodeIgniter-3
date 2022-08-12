@@ -56,7 +56,11 @@ MVC-Model + View + Controller.
 
 
 ### 4 - CodeIgniter Configurações do VS Code para CodeIgniter.
-- Vscode
+- Vscode extenções
+  - `Vscode-icons`.
+  - `PHP IntelliSense`.
+  - `PHP intellisense for codeigniter`.
+  - `Lorem ipsum`.
 
 ### 5 - CodeIgniter Criação de um projeto CodeIgniter.
 
