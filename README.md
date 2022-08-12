@@ -7,6 +7,11 @@
 - Requisitos de software.
 - Algumas notas sobre a sequência das aulas.
 
+**O que é o CodeIgniter ?**
+- É uma framework de PHP (padrão MVC).
+- Ocupa muito pouco espaço (2.5MB).
+
+
 
 
 ##
