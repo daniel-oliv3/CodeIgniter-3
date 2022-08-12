@@ -35,18 +35,21 @@
 
 ### 2 - O que é o padrão MVC.
 ```txt
-- MVC-Model + View + Controller.
-  -  MODEL -> Dados.
+MVC-Model + View + Controller.
+    MODEL -> Dados.
 
-  -  VIEW -> Apresentação/Visualização.
+    VIEW -> Apresentação/Visualização.
 
-  -  CONTROLLER -> Lógica da aplicação.
+    CONTROLLER -> Lógica da aplicação.
 ```
 
 
+### 3 - Instalação do software necessário.
+## CodeIgniter.
+- Site - https://codeigniter.com/
 
-
-
+## Laragon.
+- Site - https://laragon.org/
 
 
 
