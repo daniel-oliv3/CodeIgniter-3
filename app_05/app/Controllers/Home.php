@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+           $this->load->view('cabecalho');
+           $this->load->view('conteudo');
+           $this->load->view('rodape');
     }
 }
