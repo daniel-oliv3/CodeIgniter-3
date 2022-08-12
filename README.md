@@ -78,6 +78,9 @@ MVC-Model + View + Controller.
 - Vscode: `preferences/settings`, `"files.exclude": { ... }`.
 - "`**/index.html": true`,
 
+### 8 - Fluxo de execução do CodeIgniter.
+- Ex: app_04
+
 
 
 
