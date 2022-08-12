@@ -95,7 +95,8 @@ MVC-Model + View + Controller.
 - O controller welcome, através do método index, solicita a apresentação da view welcome_message.
 
 
-
+### 9 - Primeiro exercício Relação entre Controllers e Views.
+- Ex: app_05
 
 
 
