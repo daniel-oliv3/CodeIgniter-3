@@ -72,7 +72,8 @@ MVC-Model + View + Controller.
 ### 6 - CodeIgniter Estrutura de pastas e arquivos do CodeIgniter.
 - Ex: app_02
 
-
+### 7 - Como esconder pastas e ficheiros no VS Code.
+- Ex: app_03
 
 
 
