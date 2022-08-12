@@ -45,17 +45,17 @@ MVC-Model + View + Controller.
 
 
 ### 3 - Instalação do software necessário.
-## CodeIgniter.
+#### CodeIgniter.
 - Site - https://codeigniter.com/
 
-## Laragon.
+#### Laragon.
 - Site - https://laragon.org/
 
-## Visual Studio Code.
+#### Visual Studio Code.
 - Site - https://code.visualstudio.com/download
 
 
-### - 4 CodeIgniter Configurações do VS Code para CodeIgniter.
+### 4 - CodeIgniter Configurações do VS Code para CodeIgniter.
 - Vscode
 
 
