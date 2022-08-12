@@ -16,15 +16,24 @@
 - Poucas configurações iniciais e não requer uso de linhas de comando.
 - Não necessita de um pré-compilador de PHP (template language).
 - Requisitos básicos de servidor web (PHP 5.1+, MySQL).
+- Curva de aprendizagem simples.
 
 
-**Requisitos necessários para seguir o curso**.
+**Requisitos necessários**.
+- Bons conhecimentos de HTML, CSS.
+- Conhecimentos sólidos de PHP, OOP, SQL.
+- Conhecimentos de base de dados (MySQL).
+- Bom domínio o editor de código a utilizar.
 
 
+**Requisitos software**.
+- Servidor web local (Laragon).
+- Editor de código (Visual Studio Code).
+- (Opcional) Um programa de edição de imagem.
+- Browser para testar as aplicações web.
 
 
-
-
+##
 
 
 
