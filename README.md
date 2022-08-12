@@ -1,4 +1,4 @@
-#### 1 - PHP, CODEIGNITER.
+### 1 - PHP, CODEIGNITER.
 
 ## CodeIgniter.
 
@@ -33,8 +33,15 @@
 - Browser para testar as aplicações web.
 
 
-##
+### 2 - O que é o padrão MVC.
+```txt
+- MVC-Model + View + Controller.
+  -  MODEL -> Dados.
 
+  -  VIEW -> Apresentação/Visualização.
+
+  -  CONTROLLER -> Lógica da aplicação.
+```
 
 
 
