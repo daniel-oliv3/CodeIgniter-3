@@ -75,7 +75,8 @@ MVC-Model + View + Controller.
 ### 7 - Como esconder pastas e ficheiros no VS Code.
 - Ex: app_03
 
-
+- Vscode: `preferences/settings`, `"files.exclude": { ... }`.
+- "`**/index.html": true`,
 
 
 
