@@ -51,6 +51,14 @@ MVC-Model + View + Controller.
 ## Laragon.
 - Site - https://laragon.org/
 
+## Visual Studio Code.
+- Site - https://code.visualstudio.com/download
+
+
+### - 4 CodeIgniter Configurações do VS Code para CodeIgniter.
+- Vscode
+
+
 
 
 
