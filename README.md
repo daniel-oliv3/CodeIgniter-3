@@ -81,8 +81,16 @@ MVC-Model + View + Controller.
 ### 8 - Fluxo de execução do CodeIgniter.
 - Ex: app_04
 
+```txt
 
+  index.php ->  Application/config/routes.php ->  Welcome controller ->  Welcome_message
 
+```
+
+- Carrega as configurações iniciais da aplicação e procura a route de inicio.
+- No ficheiro routes.php está indicado o controller inicial.
+- O siatema vai procurar o controller indicado na pasta controllers.
+- O controller welcome, através do método index, solicita a apresentação da view welcome_message.
 
 
 
