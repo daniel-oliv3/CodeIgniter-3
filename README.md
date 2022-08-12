@@ -64,8 +64,13 @@ MVC-Model + View + Controller.
 
 ### 5 - CodeIgniter Criação de um projeto CodeIgniter.
 - Site - https://codeigniter.com/
+- Ex: app_01
 
+**FontAwesome**
+- Site - https://fontawesome.com/icons
 
+### 6 - CodeIgniter Estrutura de pastas e arquivos do CodeIgniter.
+- Ex: app_02
 
 
 
