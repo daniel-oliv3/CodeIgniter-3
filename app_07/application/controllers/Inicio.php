@@ -9,6 +9,12 @@ class Inicio extends CI_Controller {
 		$this->load->view('conteudo_inicial/conteudo');
 		$this->load->view('template/rodape');
 	}
+
+	public function outra(){
+		$this->load->view('template/cabecalho');
+		$this->load->view('pagina2');
+		$this->load->view('template/rodape');
+	}
 }
 
 ?>
