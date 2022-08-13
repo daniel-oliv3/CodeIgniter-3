@@ -66,7 +66,7 @@ MVC-Model + View + Controller.
 - Site - https://codeigniter.com/
 - Ex: app_01
 
-- Localhost - ```http://localhost/CodeIgniter-php/app_01/public/```
+- Localhost - ```http://localhost/CodeIgniter-3/app_01/```
 
 **FontAwesome**
 - Site - https://fontawesome.com/icons
