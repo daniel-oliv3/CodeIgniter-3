@@ -100,6 +100,9 @@ MVC-Model + View + Controller.
 
 ### 10 - Fisionomia de um Controller e Views dentro de pastas.
 - Ex: app_06
+
+
+### 11 - Controllers com mais métodos e Controllers em subpastas.
 - Localhost - ```http://localhost/CodeIgniter-3/app_07/index.php/inicio/outra```
 - Localhost - ```http://localhost/CodeIgniter-3/app_07/index.php/inicio/outra_fun```
 
