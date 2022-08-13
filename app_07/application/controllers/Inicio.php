@@ -15,6 +15,14 @@ class Inicio extends CI_Controller {
 		$this->load->view('pagina2');
 		$this->load->view('template/rodape');
 	}
+
+	public function outra_fun(){
+		$this->load->view('template/cabecalho');
+		$this->load->view('conteudo_inicial/conteudo');
+		$this->load->view('pagina2');
+		$this->load->view('conteudo_inicial/conteudo');
+		$this->load->view('template/rodape');
+	}
 }
 
 ?>
