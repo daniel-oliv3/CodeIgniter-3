@@ -103,6 +103,7 @@ MVC-Model + View + Controller.
 
 
 ### 11 - Controllers com mais métodos e Controllers em subpastas.
+- Ex: app_07
 - Localhost - ```http://localhost/CodeIgniter-3/app_07/index.php/inicio/outra```
 - Localhost - ```http://localhost/CodeIgniter-3/app_07/index.php/inicio/outra_fun```
 
