@@ -1,37 +1,35 @@
 {
-    "name": "codeigniter4/appstarter",
-    "type": "project",
-    "description": "CodeIgniter4 starter app",
-    "homepage": "https://codeigniter.com",
-    "license": "MIT",
-    "require": {
-        "php": "^7.4 || ^8.0",
-        "codeigniter4/framework": "^4.0"
-    },
-    "require-dev": {
-        "fakerphp/faker": "^1.9",
-        "mikey179/vfsstream": "^1.6",
-        "phpunit/phpunit": "^9.1"
-    },
-    "suggest": {
-        "ext-fileinfo": "Improves mime type detection for files"
-    },
-    "autoload": {
-        "exclude-from-classmap": [
-            "**/Database/Migrations/**"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\Support\\": "tests/_support"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "support": {
-        "forum": "http://forum.codeigniter.com/",
-        "source": "https://github.com/codeigniter4/CodeIgniter4",
-        "slack": "https://codeigniterchat.slack.com"
-    }
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=5.3.7"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"scripts": {
+		"test:coverage": [
+			"@putenv XDEBUG_MODE=coverage",
+			"phpunit --color=always --coverage-text --configuration tests/travis/sqlite.phpunit.xml"
+		],
+		"post-install-cmd": [
+			"sed -i s/name{0}/name[0]/ vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStream.php"
+		],
+		"post-update-cmd": [
+			"sed -i s/name{0}/name[0]/ vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStream.php"
+		]
+	},
+	"require-dev": {
+		"mikey179/vfsstream": "1.6.*",
+		"phpunit/phpunit": "4.* || 5.* || 9.*"
+	}
 }
