@@ -107,7 +107,8 @@ MVC-Model + View + Controller.
 - Localhost - ```http://localhost/CodeIgniter-3/app_07/index.php/inicio/outra```
 - Localhost - ```http://localhost/CodeIgniter-3/app_07/index.php/inicio/outra_fun```
 
-
+- F - ```http://localhost/CodeIgniter-3/app_07/socios/novo/```
+- F - ```http://localhost/CodeIgniter-3/app_07/socios/novo/outra_pg```
 
 
 
